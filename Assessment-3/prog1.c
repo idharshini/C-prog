@@ -6,3 +6,4 @@ int main(){
     x==50 && printf("Success");
     x!=50 && printf("Failure");
 }
+// Assessment-3 programs
