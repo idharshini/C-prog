@@ -1,5 +1,5 @@
 #include <stdio.h>
-void disp_LCM2() {
+void disp_count_sum14() {
     int a, b, x, y, temp, gcd, lcm;
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
@@ -12,11 +12,8 @@ void disp_LCM2() {
     }
     gcd = x;
     lcm = (a * b) / gcd;
-
     printf("LCM = %d", lcm);
 }
-
-int main() {
-    disp_LCM2();
-    return 0;
+int main(){
+    disp_count_sum14();
 }
