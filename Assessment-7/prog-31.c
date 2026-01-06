@@ -1,6 +1,6 @@
 #include <stdio.h>
+int a, b, x, y, temp, gcd, lcm;
 void disp_LCM2() {
-    int a, b, x, y, temp, gcd, lcm;
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
     x = a;
@@ -12,10 +12,9 @@ void disp_LCM2() {
     }
     gcd = x;
     lcm = (a * b) / gcd;
-
-    printf("LCM = %d", lcm);
+    printf("LCM = %d\n", lcm);
 }
-
 int main() {
-    disp_LCM2();  
+    disp_LCM2();
+    return 0;
 }
